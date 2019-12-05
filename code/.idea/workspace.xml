@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96903572-6608-4874-a9af-64755868ffaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatMobile/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ChatMobile/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="96903572-6608-4874-a9af-64755868ffaf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChatMobile/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="153">
               <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
             </state>
           </provider>
@@ -41,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/ChatMobile/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -82,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -113,6 +109,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,10 +221,10 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="7" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="8" visible="true" weight="0.2596726" />
+      <window_info content_ui="combo" id="Project" order="8" visible="true" weight="0.25945538" />
       <window_info anchor="bottom" id="TODO" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3279483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3279483" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.33060557" />
       <window_info anchor="bottom" id="Logcat" order="5" />
@@ -239,7 +236,7 @@
       <window_info anchor="right" id="Preview" order="2" weight="0.39863843" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
-      <window_info anchor="right" id="Assistant" order="5" weight="0.33509833" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.34039333" />
     </layout>
     <layout-to-restore>
       <window_info id="Resources Explorer" order="0" weight="0.3296131" />
@@ -314,12 +311,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChatMobile/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -354,7 +351,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChatMobile/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="153">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
@@ -365,7 +362,7 @@
     <entry file="file://$PROJECT_DIR$/ChatMobile/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
