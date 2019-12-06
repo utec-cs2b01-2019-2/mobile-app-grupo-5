@@ -86,10 +86,15 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void goToContactsActivity(int user_id, String username) {
-        Intent intent = new Intent(this, ContactsActivity.class);
+        Intent intent = new Intent(this, MenuActivity.class);
         intent.putExtra("user_id", user_id);
         intent.putExtra("username", username);
 
         startActivity(intent);
+    }
+
+    public void goToRegisterActivity(View view){
+        Intent register = new Intent(this, RegisterActivity.class);
+        startActivity(register);
     }
 }
