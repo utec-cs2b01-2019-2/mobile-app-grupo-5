@@ -13,16 +13,49 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <TextView
-            android:id="@+id/textView"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="MENUUUUUUUUUUUUU" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Menu Principal"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:text="Localización" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:onClick="goToContacts"
+                    android:text="Amigos" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:text="Mi Lista" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/libro" />
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

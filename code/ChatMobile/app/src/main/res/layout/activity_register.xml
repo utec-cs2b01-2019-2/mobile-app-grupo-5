@@ -4,57 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".RegisterActivity">
+
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="414dp"
+        android:layout_height="556dp"
+        android:layout_marginBottom="108dp"
+        android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            app:srcCompat="@drawable/llibreria"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:id="@+id/loginLayout"
+            android:layout_width="458dp"
+            android:layout_height="302dp"
+            android:gravity="center"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="85dp"
-                android:text="Menu Principal"
-                android:textSize="40sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:gravity="center">
 
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="match_parent"
-                    android:layout_height="66dp"
-                    android:text="Localización" />
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:onClick="goToContacts"
-                    android:text="Amigos" />
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="match_parent"
-                    android:layout_height="62dp"
-                    android:text="Mi Lista" />
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="match_parent"
+                <TextView
+                    android:id="@+id/lblUsername"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/libro" />
+                    android:text="Username" />
+
+                <EditText
+                    android:id="@+id/txtUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/lblPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/lblFullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fullname" />
+
+                <EditText
+                    android:id="@+id/txtFullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/lblNumero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numero movil" />
+
+                <EditText
+                    android:id="@+id/txtNumero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="backActivityLogin"
+                android:text="Register" />
+
         </LinearLayout>
     </LinearLayout>
 
